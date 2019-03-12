@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>算法与数据结构</dc:title>
+    <dc:language>zh</dc:language>
+    <dc:rights>版权</dc:rights>
+    <dc:source>http://www.xuanyuan-soft.com</dc:source>
+    <dc:creator>作者</dc:creator>
+    <dc:publisher>出版者</dc:publisher>
+    <dc:identifier id="PrimaryID" opf:scheme="ISBN">123456789X</dc:identifier>
+    <meta name="cover" content="img1" />
+    <meta name="output encoding" content="utf-8" />
+    <meta name="primary-writing-mode" content="horizontal-lr" />
+  </metadata>
+  <manifest>
+    <item id="txt0" href="cover_page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x_TOC.xhtml" media-type="application/xhtml+xml" href="book1.xhtml" />
+    <item id="img1" media-type="image/png" href="img/image_001.png" />
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="txt0" linear="no"/>
+    <itemref idref="x_TOC.xhtml"/>
+  </spine>
+  <tours>
+  </tours>
+  <guide>
+    <reference type="toc" title="目录" href="book1.xhtml" />
+    <reference type="cover" title="Cover" href="cover_page.xhtml" />
+  </guide>
+</package>
